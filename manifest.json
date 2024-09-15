@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chest-Shop",
+		"description": "Chest-Shop",
+		"uuid": "6adedaeb-35c3-436b-88b4-5a89a55728d7",
+		"version": [
+			1,
+			1,
+			0
+		],
+		"min_engine_version": [
+			1,
+			18,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fd71c878-f63f-4b69-999a-fca7a2bca45d",
+			"version": [
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "1f794c88-02a6-4155-9afe-e3ea2991c0a0",
+			"version": "1.6.0"
+		}
+	],
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		},
+		{
+			"description": "@minecraft/server-ui module dependency",
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
